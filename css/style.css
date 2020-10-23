@@ -1,0 +1,249 @@
+.myheader
+{
+    overflow: hidden;
+}
+.myheader video
+{
+    width: 100%;
+}
+.myheader .overr
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(216, 227, 227, 0.9);
+}
+.myheader .overr .navbar.navbar-expand-md.navbar-light
+{
+    background: transparent;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #0088CC;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#444;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#0088CC;
+}
+.myheader .overr .navbar.navbar-expand-md.navbar-light .navbar-brand img
+{
+    width: 100px;;
+}
+.myheader .midlle-head
+{
+    height: 100%;
+    text-align: center;
+}
+.myheader .midlle-head2 img
+{
+    width: 25px;
+    height: 7px;;
+}
+.myheader .midlle-head2 span
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.myheader .midlle-head2 span strong
+{
+    font-size: 40px;
+}
+
+.myheader .midlle-head2 .mousee
+{
+    height: 35px;
+    text-align: center;
+    width: 25px;
+    border : 2px solid #000 ;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+.myheader .midlle-head2 .mousee .mousemov
+{
+    height: 13px;
+    width: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    right: 4px;
+    top: 12px;
+    animation: fadeInDown 1s infinite;
+}
+
+
+/* start style porto  */
+.porto
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.porto h2 
+{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    line-height: 47px;
+}
+.porto h2 span 
+{
+    color: #FFF;
+    background: #000;
+    margin-bottom: 10px;
+    padding : 10px 5px
+}
+.porto p
+{
+    color: #b9b4b4;
+}
+.porto .l-icon
+{
+    color: #0088CC;
+    font-size: 25px;
+}
+.porto .r-content
+{
+    margin-top: 6px;
+    margin-left: 3px;
+    margin-bottom: 20PX;;
+}
+.porto .r-content p
+{
+    font-size: 15px;
+}
+.porto .btn-link:hover {
+    text-decoration: none;
+    color: #0088CC;
+    cursor: pointer;
+
+}
+
+
+/* end style porto */
+
+
+/* start about us  */
+.aboutt
+{
+    background: #EDEDED;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.aboutt h2
+{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.aboutt p
+{
+    color: #b9b4b4;
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+.aboutt a
+{
+    text-transform: uppercase;
+}
+.aboutt a:hover
+{
+    text-decoration: none;
+}
+.aboutt  #margTop
+{
+    margin-top: 55px;
+}
+.progress 
+{
+border-radius: 20px;
+background: #FFF;
+height: 25px;
+margin-bottom: 2px;
+}
+.progress-bar
+{
+    border-radius: 20px;
+}
+/* end about us */
+/* start team  */
+.team 
+{
+    padding-bottom: 60px;
+}
+.team p
+{
+    color: #b9b4b4;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+.team a
+{
+    color: #FFF;
+    background: #000;
+    padding : 10px 50px ;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top : 20px
+}
+.team a:hover
+{
+    text-decoration: none;
+}
+
+/* end team */
+/* start cursor */
+.mycursor
+{
+    background: #EDEDED;
+    height: 466px;
+}
+.mycursor .carousel .carousel-inner .carousel-caption .mycapture img
+{
+    margin-bottom: 50px;
+}
+.mycursor .carousel .carousel-inner .carousel-caption .mycapture
+{
+    color: #999;
+    position: relative;
+    left: 0;
+    top: -80px;
+    
+} 
+.mycursor .carousel-indicators .active {
+    background-color: #0088CC;
+}
+/* end cursor */
+
+/* start footer */
+.bigFooter
+{
+    padding-top: 60px;
+    background: #212529; 
+    color: #777;
+    line-height: 30px;
+}
+.bigFooter i 
+{
+    color : #0088CC;
+    margin-right: 10px;;
+}
+.bigFooter a
+{
+    color : #FFF;
+    font-size: 12px;
+}
+.bigFooter .fin  , .bigFooter .fin li ,.bigFooter .fin li span
+{
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+/* end footer */
